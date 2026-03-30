@@ -1,24 +1,24 @@
-*Assignment_1*
-*Advanced Solidity Patterns & Security Fundamentals**
+**##Assignment_1##**
+**##Advanced Solidity Patterns & Security Fundamentals##**
 
 This project demonstrates advanced Solidity development patterns and smart contract security concepts using a banking vault model. The implementation includes contract deployment patterns, upgradeable contracts, gas optimization techniques, inline assembly usage, and practical demonstrations of common vulnerabilities and their fixes
 
 The goal of this project is to provide both theoretical understanding and practical implementation of blockchain development concepts. The system includes a factory for contract deployment, an upgradeable proxy contract, optimized storage and computation examples, and security scenarios such as reentrancy and access control vulnerabilities. Each component is tested using an automated test suite to verify correctness and behavior
 
-*To run the project, make sure Node.js and npm are installed on your system.*
+**To run the project, make sure Node.js and npm are installed on your system.**
 Install project dependencies:
-npm install
+`npm install`
 
 Compile the smart contracts:
-npx hardhat compile
+`npx hardhat compile`
 
 Run the full test suite:
-npx hardhat test
+`npx hardhat test`
 
 To generate gas usage report:
-cmd /c "set REPORT_GAS=true && npx hardhat test"
+`cmd /c "set REPORT_GAS=true && npx hardhat test"`
 
-*Result slither:**
+**Result slither:**
 PS C:\Users\Ghani\Desktop\BCH1> slither .
 'npx hardhat clean' running (wd: C:\Users\Ghani\Desktop\BCH1)
 'npx hardhat clean --global' running (wd: C:\Users\Ghani\Desktop\BCH1)
